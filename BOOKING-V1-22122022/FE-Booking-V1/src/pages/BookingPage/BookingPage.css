@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: none !important;
+}
+/* Header */
+.BookingPage {
+    width: 100%;
+    font-size: 20px;
+    color: #222222;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.BookingPage .confirm {
+    width: 75%;
+    height: 35px;
+    margin: 40px auto;
+    display: flex;
+
+}
+.BookingPage .confirm .icon {
+    display: flex;
+    align-items: center;
+}
+.BookingPage .confirm .icon ion-icon {
+    font-size: 30px !important;
+    line-height: 35px;
+    width: 30px;
+    height: 30px;
+}
+.BookingPage .confirm .icon ion-icon:hover {
+    cursor: pointer;;
+    border-radius: 50%;
+    background-color: rgb(170, 170, 165);
+    opacity: 0.7;
+}
+.BookingPage .confirm .confirm-content {
+    line-height: 35px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.BookingPage .header {
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid green; */
+}
+.BookingPage .body {
+    width: 75%;
+    /* border: 1px solid green; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.BookingPage .body .body-left {
+    width: 50%;
+    /* border: 1px solid green; */
+
+}
+.BookingPage .body .body-left .note .infor .left .first {
+    font-size: 16px;
+}
+.BookingPage .body .body-left .note .infor .left .second {
+    font-size: 16px;
+}
+.BookingPage .body .body-left .infor {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.BookingPage .body .body-left .infor {
+    display: flex;
+    justify-content: space-between;
+}
+.BookingPage .body .body-left .infor .left {
+    margin: 20px;
+    font-size: 20px;
+}
+.BookingPage .body .body-left .infor .left .first {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.BookingPage .body .body-left .infor .right {
+    width: 40px;
+    margin: auto;
+}
+.BookingPage .body .body-left .infor .right ion-icon {
+    margin: auto;
+    font-size: 35px;
+    line-height: 100px;
+    color: red;
+    line-height: 100px;
+    margin: auto;
+    opacity: 0.7;
+}
+.BookingPage .body .body-left .trip {
+    margin: 32px 0px 24px 0px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.BookingPage .body .body-left .date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 15px 0px; */
+}
+.BookingPage .body .body-left .date .infor-2 div {
+    font-size: 16px;
+}
+.BookingPage .body .body-left .date .infor-2 div:first-child{
+    font-weight: 600;
+}
+.BookingPage .body .body-left .date .infor-2 div:last-child{
+    margin-bottom: 24px;
+}
+.BookingPage .body .body-left .date .edit-infor-data {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.BookingPage .body .body-left .payment {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.BookingPage .body .body-left .payment .input-value .car-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    /* height: 45px; */
+    /* line-height: 45px; */
+    padding: 16px 0px 16px 10px;
+    cursor: pointer;
+    opacity: 0.9;
+    margin: 20px 0px;
+    /* width: 560px; */
+    /* height: 52px; */
+}
+.BookingPage .body .body-left .payment .input-value .car-type .card-outline {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    opacity: 0.8;
+}
+.BookingPage .body .body-left .payment .input-value .car-type .card-outline div {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* .BookingPage .body .body-left .payment .input-value .car-type div:nth-child(2) { */
+    /* margin-left: 5px; */
+    /* line-height: 45px; */
+    /* line-height: 1; */
+/* } */
+.BookingPage .body .body-left .payment .input-value .car-type .caret-down-outline {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    margin-right: 20px;
+    opacity: 0.6;
+}
+.BookingPage .body .body-left .payment .input-value .code {
+    border: 1px solid grey;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.9;
+    margin: 20px 0px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.BookingPage .body .body-left .payment .input-value .car-type-contry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.9;
+    padding-left: 10px;
+    height: 50px;
+    line-height: 50px;
+}
+.BookingPage .body .body-left .payment .input-value .car-type-contry .card-outline-contry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 560px;
+    height: 55px;
+}
+.BookingPage .body .body-left .payment .input-value .car-type-contry .card-outline-contry span {
+    font-size: 14px;
+    height: 16px;
+    line-height: 1.3;
+}
+.BookingPage .body .body-left .payment .input-value .car-type-contry .card-outline-contry .area {
+    font-size: 14px;
+    /* line-height: 1.3; */
+}
+.BookingPage .body .body-left .payment .input-value .car-type-contry .card-outline-contry .area-name {
+    font-weight: 500;
+    font-size: 18px;
+}
+.BookingPage .body .body-left .payment .input-value .car-type-contry .caret-down-outline {
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+    margin-right: 20px;
+    opacity: 0.6;
+}
+.BookingPage .body .body-left .payment .input-code {
+    text-decoration: underline;
+    font-size: 16px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.BookingPage .body .body-left .request {
+    margin-bottom: 34px;
+}
+.BookingPage .body .body-left .request .title {
+    font-size: 22px;
+    padding: 32px 0px;
+    font-weight: 500;
+}
+.BookingPage .body .body-left .request .add-number {
+    display: flex;
+    justify-content: space-between;
+}
+.BookingPage .body .body-left .request .add-number .add-number-left .number {
+    font-size: 16px;
+    font-weight: 600;
+}
+.BookingPage .body .body-left .request .add-number .add-number-left .title-number {
+    font-size: 14px;
+    margin-top: 4px;
+}
+.BookingPage .body .body-left .request .add-number .add-number-right {
+    width: 75px;
+    height: 35px;
+    background-color: transparent;
+    padding: 7px 15px;
+    border-radius: 8px;
+    border: 1px solid #222222;
+    margin-left: 10px;
+}
+.BookingPage .body .body-left .request .add-number .add-number-right:hover {
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
+.BookingPage .body .body-left .cancel {
+    margin: 32px 0px 24px 0px;
+}
+.BookingPage .body .body-left .cancel .title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.BookingPage .body .body-left .cancel .content {
+    font-size: 16px;
+}
+.BookingPage .body .body-left .cancel .content span:first-child {
+    font-weight: 600;
+}
+.BookingPage .body .body-left .cancel .content span:last-child {
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.BookingPage .body .body-left .confirm1 {
+    font-size: 12px;
+}
+.BookingPage .body .body-left .confirm1 .note {
+    margin-top: 32px;
+}
+.BookingPage .body .body-left .confirm1 span {
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.BookingPage .body .body-left .confirm1 button {
+    width: 330px;
+    height: 55px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    background-color: #db0d63;
+    margin: 32px 0px 80px 0px;
+}
+
+
+
+.BookingPage .body .body-right {
+    width: 40%;
+    /* border: 1px solid green; */
+}
+/* .BookingPage .body .fix-card { */
+    /* position: fixed; */
+    /* top: 115px; */
+    /* right: 100px; */
+/* } */
+.BookingPage .body .body-right .card {
+    border: 1px solid #8d8b8b;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.3);
+}
+.BookingPage .body .body-right .first-infor {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.BookingPage .body .body-right .first-infor .infor {
+    margin-left: 14px;
+}
+.BookingPage .body .body-right .first-infor .pic {
+    width: 125px;
+    height: 100px;
+    object-fit: none;
+}
+.BookingPage .body .body-right .first-infor .pic img {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+.BookingPage .body .body-right .first-infor .infor .house-infor {
+    font-size: 14px;
+}
+.BookingPage .body .body-right .first-infor .infor .house-rate {
+    display: flex;
+    justify-content: start;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.BookingPage .body .body-right .first-infor .infor .house-rate i {
+    font-size: 14px;
+}
+.BookingPage .body .body-right .first-infor .infor .house-rate .dot {
+    margin: 0px 5px;
+    font-weight: bold;
+    opacity: 0.6;
+}
+.BookingPage .body .body-right .first-infor .infor .house-rate .rate span {
+    font-weight: 700;
+    font-size: 14px;
+}
+.BookingPage .body .body-right .first-infor .infor .house-rate .rate span:last-child {
+    font-weight: normal;
+    margin-left: 3px;
+}
+.BookingPage .body .body-right .booking-inf {
+    font-size: 16px;
+    padding: 24px 0px;
+    border-top: 1px solid #8d8b8b;
+    border-bottom: 1px solid #8d8b8b;
+}
+.BookingPage .body .body-right .detail {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 24px 0px;
+}
+.BookingPage .body .body-right .price,
+.BookingPage .body .body-right .sevice-fee,
+.BookingPage .body .body-right .total-fee {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.BookingPage .body .body-right .sevice-fee {
+    padding: 20px 0px;
+    border-bottom: 1px solid #8d8b8b;
+}
+.BookingPage .body .body-right .sevice-fee .sevice {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.BookingPage .body .body-right .total-fee {
+    padding: 20px 0px;
+    font-weight: 600;
+}
+
+
+
+
+
+.BookingPage .footer {
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid green; */
+}

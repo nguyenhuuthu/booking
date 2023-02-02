@@ -1,0 +1,527 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .total{
+    margin: auto;
+    width: 80%;
+    /* border: 1px solid red; */
+  }
+  /* .container{
+    margin: auto;
+    width: 80%;
+    border: 1px solid red;
+  } */
+  
+  
+  .small{
+    padding: 10px;
+  }
+  .small-1:hover{
+    cursor: pointer;
+  }
+  
+  .image-home{
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    height: 300px;
+  }
+  
+  .container-image{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .image-big{
+    width: 59%;
+    
+  }
+  .image-mall{
+    width: 50%;
+    display: flex;
+  }
+  .image-home-small{
+    width: 50%;
+    padding-left: 10px;
+  }
+  .image-detail{
+    width: 100%;
+    height: 148px;
+  }
+  .image-detail-1{
+    padding-bottom: 7px;
+  }
+  
+  
+  
+  /*//////////////////MASTER////////////////////////////**/
+  
+  
+  .master-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+  
+  .master-name{
+    display: flex;
+    margin-top: 20px;
+  }
+  .master-name-2{
+    margin-left: 20px;
+  }
+  .master-name-2 h2{
+    margin-top:  7px;
+    margin-bottom: 10px;
+  }
+  
+  .fa-square-check{
+    margin-left: 20px;
+  }
+  .master-feedback{
+    margin-top: 15px;
+  }
+  .contact{
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 10px;
+  }
+  .contact:hover{
+    cursor: pointer;
+    background: rgb(231, 231, 231);
+  }
+  .guard{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    height: 80px;
+    
+  }
+  .guard p{
+      margin-left: 20px;
+      font-size: 13px;
+      margin-bottom: 50px;
+  }
+  .guard-guard{
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .master-content{
+    border-bottom: 1px solid rgb(146, 144, 144);
+  }
+  
+  
+  /*///////////////////cẦN bIẾT/////////////////////////*/
+  
+  .necessary{
+    margin-top: 50px;
+    /* border-bottom: 1px solid rgb(165, 165, 165); */
+  }
+  .necessary-2{
+    display: flex;
+    padding-bottom: 50px;
+  }
+  .necessary h4{
+    margin-top: 40px;
+    font-weight: 700;
+    width: 330px;
+  }
+  .necessary-2-1 p{
+    padding-top: 10px;
+  }
+  
+  .extend{
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  .extend:hover{
+    cursor: pointer;
+  }
+  
+  
+  
+  /*///////////////////THE END//////////////////////////*/
+  .the-end{
+    padding-top: 50px;
+    background: rgb(238, 238, 238);
+    border-top: 1px solid rgb(212, 212, 212);
+    margin: auto;
+  }
+  .the-end-1{
+    display: flex;
+    border-bottom: 1px solid rgb(155, 155, 155);
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  .the-end-end{
+    width: 80%;
+    margin: auto;
+  }
+  .the-end-1-1{
+    width: 300px;
+  }
+  .the-end-1-1 p{
+    margin-top: 15px;
+  }
+  .the-end-1-1 p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  
+  
+  .the-end-2{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+  }
+  .the-end-2-left{
+    display: flex;
+  }
+  .the-end-2-left p{
+    padding-right: 10px;
+    
+  }
+  
+  .the-end-2-right{
+    display: flex; 
+  }
+  .the-end-2-right i{
+    padding-left: 20px;
+   
+  }
+  
+  .the-end-2-right span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .icon-the-end{
+    padding-right: 10px;
+  }
+  .icon-the-end:hover{
+    cursor: pointer;
+  }
+  
+  .me-too:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  
+  
+  /*////////////////////// Thân ///////////////////////*/
+  
+  
+  .container-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  
+  .dear{
+    width: 61%;
+    height: 1000px;
+    /* border: 1px solid black; */
+  }
+  .dear-1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(206, 204, 204);
+    padding-bottom: 20px;
+  }
+  .dear-1-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .dear-1 p{
+    padding-top: 5px;
+  }
+  
+  
+  .dear-2{
+    border-bottom: 1px solid rgb(206, 204, 204);
+    padding-bottom: 20px;
+  }
+  .dear-2-1{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .fa-icon{
+    padding-right: 20px;
+    font-size: 25px; 
+  }
+  /*                            ĐẶT PHÒNG                                */
+  .pay{
+    width: 32%;
+    height: 460px;
+    /* border: 1px solid rgb(15, 238, 7); */
+    align-items: center;
+    display: flex;
+    box-shadow: -1px 5px 46px -9px rgb(197, 196, 196);
+    border-radius: 10px;
+  }
+  .pay-home{
+    width: 85%;
+    height: 87%;  
+    border: none;
+    margin: auto;
+  }
+  
+  .pay-home-1-1{
+    display: flex;
+    justify-content: space-between ;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+  .pay-home-1-1 i{
+    font-size: 12px;
+  }
+  .price{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .pay-home-1-2{
+    width: 100%;
+    height: 80px;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 10px;
+  }
+  .pay-home-1-2-1{
+    display: flex;
+    border-bottom: 1px solid rgb(121, 120, 120);
+  }
+  .pay-home-time{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+  }
+  .pay-left{
+    border-right: 1px solid rgb(139, 139, 139);
+  }
+  .pay-home-guest{
+    text-align: center;
+    line-height: 35px;
+  }
+  
+  .pay-home-1-3{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(253, 4, 158);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .pay-home-1-3:hover{
+    cursor: pointer;
+  }
+  
+  .pay-home-2{
+    border-bottom: 1px solid rgb(216, 214, 214);
+  }
+  .pay-home-2-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+  }
+  .category{
+    text-decoration: underline;
+  }
+  
+  .pay-home-3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  
+  
+  /*/////////////////////////////////////////////////////////////////////////////*/
+  .dear-3{
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(206, 204, 204);
+    padding-bottom: 30px;
+  }
+  .dear-3-1{
+    display: flex;
+    padding-bottom: 15px;
+  }
+  .dear-3-1-air{
+    color: red;
+  }
+  
+  .dear-3-3{
+    padding-top: 15px;
+    text-decoration: underline;
+  }
+  .dear-3-3:hover{
+    cursor: pointer;
+  }
+  
+  
+  .dear-4{
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(206, 204, 204);
+    padding-bottom: 30px;
+  
+  }
+  .dich:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .dear-4 p{
+    margin-top: 20px;
+  }
+  
+  
+  .dear-5{
+    margin-top: 30px;
+  }
+  .dear-5-2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .fa-icon-2{
+    padding-top: 15px;
+    padding-right: 10px;
+  }
+  
+  .dear-5-3{
+    border: 1px solid rgb(61, 61, 61);
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  .dear-5-3 h4{
+    text-align: center;
+    line-height: 50px;
+  }
+  .dear-5-3 h4:hover{
+    cursor: pointer;
+    background: rgb(47, 243, 8);
+  }
+  
+  
+  
+  /*////////////////////////////////// ĐÁNH GIA///////////////////////////////////////*/
+  .evaluate-home-big{
+    margin-top: 50px;
+    border-top: 1px solid rgb(156, 154, 154);
+    /* border: 1px solid red; */
+  }
+  .evaluate-home{
+    font-size: 25px;
+    margin-top: 20px; 
+  }
+  
+  .evaluate{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .evaluate-1{
+    /* border: 1px solid red; */
+    width: 46%;
+    height: 130px;
+  }
+  
+  .evaluate-2{
+    /* border: 1px solid red; */
+    height: 130px;
+    width: 46%;
+  }
+  
+  .evaluate-1-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .element{
+    width: 45%;
+  }
+  .do-dai{
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 2px;
+    height: 4px;
+    background: rgb(173, 173, 173);
+  }
+  .do-dai-2{
+    width: 70%;
+    height: 4px;
+    margin-top: 0px;
+    border-radius: 2px;
+    background: black;
+  }
+  
+  /*/////////////////////*/
+  .comment{
+    /* border: 1px solid red; */
+    width: 100%;
+    border-bottom: 1px solid rgb(153, 152, 152);
+    padding-bottom: 30px;
+  }
+  .comment-1{
+    display: flex;
+    justify-content: space-between  ;
+    margin-top: 20px;
+  
+  }
+  .comment-1-1{
+    width: 45%;
+    /* border: 1px solid red; */
+  }
+  .comment-1-2{
+    width: 45%;
+    /* border: 1px solid red; */
+  }
+  
+  .khach-hang{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .img-khach{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+  
+  /*/////////////////////////////// MAP ///////////////////////////////////////*/
+  
+  .map{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid rgb(141, 140, 140);
+  }
+  .map-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .map-3{
+    margin-top: 20px;
+    padding-bottom: 1px solid red;
+  }

@@ -1,0 +1,21 @@
+.slick-prev{
+    /* background-color: black; color:black; */
+    margin-left: 50px;
+    z-index: 100;
+    
+   
+}
+.slick-next{
+    /* background-color: black; color:black; */
+    margin-right: 70px;
+    z-index: 100; 
+     
+}
+.slick-list{
+    padding: 0 0;
+    margin-top: 0;
+}
+/* .lick-dots{
+    display: none !important;
+    display:none;
+} */

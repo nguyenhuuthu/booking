@@ -1,0 +1,27 @@
+
+* {
+  box-sizing: border-box;
+}
+.logo {
+  /* margin-right:100vh */
+}
+
+.dropdown-menu{
+  margin-top: 1vh;
+}
+.dropdown {
+  margin-left: 8vh;
+}
+.css-e53awj-MuiStack-root {
+  justify-content: space-between;
+  margin-left: 1vh;
+}
+.profile-user{
+  position: relative;
+  left:8vh;
+}
+
+.icon-inner {
+  position: absolute;
+  left: 100px;
+}
